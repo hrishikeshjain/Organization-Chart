@@ -1,10 +1,10 @@
 import SidebarFilter from "./SidebarFilter";
-import useFormContext from "../hooks/useContext";
+import useOrgContext from "../hooks/useContext";
 import Employee from "./Employee";
 import "../styles/sidebar.css";
 
 function Sidebar() {
-  const { employees, loading } = useFormContext();
+  const { employees, loading } = useOrgContext();
   return (
     <div className="sidebar">
       <SidebarFilter />
