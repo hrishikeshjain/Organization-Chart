@@ -1,8 +1,12 @@
-# React + Vite
+# Organization Chart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Organization Chart allows users to visualize and update an employee organization chart interactively with filtering and drag & drop functionality.
+This project is built using ReactJs. [View Demo](https://organizationchart.netlify.app/)
 
-Currently, two official plugins are available:
+## Run project in local
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Node js > 16 is required.
+- Clone this repository.
+- Run `npm install` in root directory.
+- Run `npm run dev` in root directory.
+- Server should be started in port `5173` navigate to `http://localhost:5173/` in browser to view the page.
