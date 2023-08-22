@@ -32,13 +32,9 @@ const addAllChildrenDFS = (employees, mappedOutput, employeeId) => {
   orgChartNode["children"] = [];
   const employeesUnderThisEmployeeId = mappedOutput[employeeId];
 
-  for (let i = 0; i < employeesUnderThisEmployeeId.length; i++) {
+ for (const empId of employeesUnderThisEmployeeId) {
     orgChartNode["children"].push(
-      addAllChildrenDFS(
-        employees,
-        mappedOutput,
-        employeesUnderThisEmployeeId[i]
-      )
+      addAllChildrenDFS(employees, mappedOutput, empId)
     );
   }
   return orgChartNode;
