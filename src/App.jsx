@@ -10,7 +10,7 @@ function App() {
         <SplitterPanel size={25} minSize={20}>
           <Sidebar />
         </SplitterPanel>
-        <SplitterPanel size={75} minSize={70}>
+        <SplitterPanel className="org-chart-splitter" size={75} minSize={70}>
           <OrgChart />
         </SplitterPanel>
       </Splitter>
