@@ -6,3 +6,7 @@
 .p-splitter {
   border: none !important;
 }
+
+.org-chart-splitter {
+  background: rgb(245, 245, 246);
+}
