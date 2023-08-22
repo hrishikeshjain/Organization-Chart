@@ -1,0 +1,27 @@
+.p-inputtext {
+  width: 100% !important;
+}
+
+.sidebar-input-filter {
+  border: none !important;
+  border-bottom: 1px solid #e7e7e7 !important;
+  border-radius: 0 !important;
+}
+
+.p-inputtext:enabled:focus {
+  box-shadow: none !important;
+}
+
+.p-multiselect {
+  border: none !important;
+  border-bottom: 1px solid #e7e7e7 !important;
+  width: 100%;
+}
+
+.p-multiselect:not(.p-disabled).p-focus {
+  box-shadow: none !important;
+}
+
+.p-multiselect-label {
+  padding-left: 2.5rem !important;
+}

@@ -1,0 +1,8 @@
+.p-card-body {
+  padding: 1rem !important;
+}
+
+.employee-card {
+  min-width: 100px !important;
+  cursor: pointer;
+}

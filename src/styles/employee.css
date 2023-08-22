@@ -1,0 +1,23 @@
+.employee-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-bottom: 1px solid #e7e7e7 !important;
+  cursor: pointer;
+}
+
+.employee-avatar {
+  margin: 10px;
+}
+
+.employee-name {
+  margin-top: 10px !important;
+  margin-bottom: 4px;
+  color: #272727;
+  font-family: sans-serif;
+}
+
+.employee-designation {
+  margin: 0 0 10px 0;
+  color: #ababab;
+}
